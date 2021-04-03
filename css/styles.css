@@ -117,7 +117,7 @@ div.membres p.membres{
 	font-weight: bold;
 	color: #8B1111;
 	text-decoration: none;
-	background-color: #C0C0C0;
+	background-color: #fff;
 	font-size: 25px;
 	padding: 10px;
 }
@@ -126,6 +126,11 @@ div.membres p.membres{
 	color: #000000;
 	background-color: #a24040;
 	transition: 0.4s all;
+}
+.fa-envelope{
+	font-size: 55px;
+	margin-left: 175px;
+	margin-right: 175px;
 }
 
 /* Actulités */
