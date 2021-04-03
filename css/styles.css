@@ -1,0 +1,170 @@
+/* top_page */
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+* {
+	font-family: 'Montserrat';
+}
+
+h1{
+	color: #8B1111;
+	background-color: #C0C0C0;
+}
+p.intro{
+	padding-top: 15px;
+	padding-left: 5%;
+	padding-right: 53%;
+}
+img.logo{
+	padding-left: 52%;
+}
+
+nav.menu_nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding-right: 10px;
+}
+
+nav.menu_nav ul li:hover a{
+	color: #000000;
+	background-color: #a24040;
+	transition: 0.4s all;
+
+}
+
+nav.menu_nav ul li a{
+	color: #8B1111;
+	text-decoration: none;
+	background-color: #C0C0C0;
+	padding: 5px;
+}
+
+/* Jeux */
+
+h3.mode_solo{
+	color: white;
+	padding-left: 10%;
+	font-weight: bold;
+}
+p.mode_solo{
+	color: white;
+	padding-left: 5%;
+	padding-right: 20%;
+}
+
+h3.mode_multi{
+	color: white;
+	padding-left: 10%;
+	font-weight: bold;
+}
+p.mode_multi{
+	color: white;
+	padding-left: 5%;
+	padding-right: 20%;
+}
+
+a.download:hover{
+	color: #000000;
+	background-color: #a24040;
+	transition: 0.4s all;
+}
+
+a.download{
+	font-weight: bold;
+	color: #8B1111;
+	text-decoration: none;
+	background-color: #C0C0C0;
+	font-size: 25px;
+	margin-left: 40%;
+	padding: 10px;
+}
+
+body.Jeux{
+	background-image:url('../img/photo_game.png');
+	background-size: cover;
+	background-repeat:no-repeat;
+	height: 100vh;
+}
+
+
+/* Membres */
+div.membres{
+	display: flex;
+}
+div.membres img.membres{
+	padding: 25px;
+	padding-top: 100px;
+	padding-left: 150px;
+}
+div.membres p.membres{
+	padding: 25px;
+	padding-top: 100px;
+	padding-right: 200px;
+}
+
+/* contact */
+
+.contact {
+	display:flex;
+	justify-content: space-evenly;
+}
+
+.contact div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contact div a {
+	font-weight: bold;
+	color: #8B1111;
+	text-decoration: none;
+	background-color: #C0C0C0;
+	font-size: 25px;
+	padding: 10px;
+}
+
+.contact div a:hover{
+	color: #000000;
+	background-color: #a24040;
+	transition: 0.4s all;
+}
+
+/* Actulités */
+.actu{
+	display: flex;
+	flex-direction: column;
+}
+
+.firstligne{
+	display: flex;
+	justify-content: space-evenly;
+}
+.secondligne{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.actu div div{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.icon{
+	font-size: 75px;
+	color: #8B1111;
+}
+
+.actu div a {
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	background-color: #fff;
+	text-align: center;
+	font-size: 25px;
+	padding: 10px;
+	width: 200px;
+}
+.actu div a:hover{
+	color: #000000;
+	background-color: #a24040;
+	transition: 0.4s all;
+}
