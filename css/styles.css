@@ -8,14 +8,6 @@ h1{
 	color: #8B1111;
 	background-color: #C0C0C0;
 }
-p.intro{
-	padding-top: 15px;
-	padding-left: 5%;
-	padding-right: 53%;
-}
-img.logo{
-	padding-left: 52%;
-}
 
 nav.menu_nav ul li{
 	list-style-type: none;
@@ -35,6 +27,21 @@ nav.menu_nav ul li a{
 	text-decoration: none;
 	background-color: #C0C0C0;
 	padding: 5px;
+}
+
+/* Accueil */
+
+.accueil{
+	display: flex;
+}
+
+.accueil div.intro p{
+	padding-top: 15px;
+	padding-left: 25%;
+}
+
+.accueil div.logo img{
+	white-space: 37%;
 }
 
 /* Jeux */
@@ -172,4 +179,22 @@ div.membres p.membres{
 	color: #000000;
 	background-color: #a24040;
 	transition: 0.4s all;
+}
+
+.pages_actu div h3{
+	text-align: center;
+}
+.pages_actu div p{
+	margin-left: 200px;
+	margin-right: 200px;
+	text-align: center;
+}
+.pages_actu div div.audio figure audio{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+figure {
+    margin: 0;
 }

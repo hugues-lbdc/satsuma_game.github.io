@@ -50,33 +50,87 @@
 		<div class="firstligne">
 			<div class="graphisme">
 				<i class="fas fa-pencil-ruler icon"></i>
-				<a href="">Graphisme</a>
+				<a href="#Graphisme">Graphisme</a>
 			</div>
 			<div class="son">
 				<i class="fas fa-volume-up icon"></i>
-				<a href="">Son</a>
+				<a href="#Son">Son</a>
 			</div>
 			<div class="menu">
 				<i class="fab fa-elementor icon"></i>
-				<a href="">Menu</a>
+				<a href="#Menu">Menu</a>
 			</div>
 		</div>
 		<br><br><br><br><br><br>
 		<div class="secondligne">
 			<div class="reseau">
 				<i class="fas fa-network-wired icon"></i>
-				<a href="">Réseau</a>
+				<a href="#Reseau">Réseau</a>
 			</div>
 			<div class="ia">
 				<i class="fas fa-brain icon"></i>
-				<a href="">IA</a>
+				<a href="#IA">IA</a>
 			</div>
 			<div class="meca">
 				<i class="fas fa-cogs icon"></i>
-				<a href="">Mécanique du jeu</a>
+				<a href="#Meca">Mécanique du jeu</a>
 			</div>
 		</div>
 		<br><br><br><br><br><br>
 	</section>
+	<div class="pages_actu">
+		<div>
+			<h3 id="Graphisme">Graphisme</h3>
+			<p>
+	
+			</p>
+			<hr style="height: 2px; color: #8B1111; background-color: #8B1111; width: 50%; border: none;">
+		</div>
+		<div>
+			<h3 id="Son">Son</h3>
+			<p>
+	
+			</p>
+			<div class="audio">
+				<figure>
+					<audio
+						controls
+					src="/media/cc0-audio/t-rex-roar.mp3">
+					Your browser does not support the
+					<code>audio</code> element.
+					</audio>
+				</figure>
+			</div>
+			<hr style="height: 2px; color: #8B1111; background-color: #8B1111; width: 50%; border: none;">
+		</div>
+		<div>
+			<h3 id="Menu">Menu</h3>
+			<p>
+	
+			</p>
+			<hr style="height: 2px; color: #8B1111; background-color: #8B1111; width: 50%; border: none;">
+		</div>
+		<div>
+			<h3 id="Reseau">Réseau</h3>
+			<p>
+				Pour l’instant le jeu multijoueur fonctionne parfaitement localement. Lors de la réalisation du multijoueur j’ai eu pas mal de problème : - Le premier est dû au impout, en effet lorsque l’on appuyer sur une touche tous les joueurs bougées comme si mon clavier allait contrôler tous les joueurs. Pour le régler j’ai du créé un script PlayerSetup qui vas désactiver les scripts PlayerController, PlayerMotor ainsi que la caméra et l’Audio Listener de tous les autres joueurs pour ne plus les contrôler. Ce script désactive aussi le script PlayerShoot mais aussi le réticule qui apparait lorsque l’on lance le jeu. J’ai ensuite ajouté un script PlayerShoot qui vas utiliser des Raycaste pour aller les autres joueurs. Je l’ai programmé pour qu’il ne puisse que toucher des Player et également à travers les autres joueurs. En modifiant les Layer des joueurs.
+			</p>
+			<hr style="height: 2px; color: #8B1111; background-color: #8B1111; width: 50%; border: none;">
+		</div>
+		<div>
+			<h3 id="IA">IA</h3>
+			<p>
+	
+			</p>
+			<hr style="height: 2px; color: #8B1111; background-color: #8B1111; width: 50%; border: none;">
+		</div>
+		<div>
+			<h3 id="Meca">Mécanique du jeu</h3>
+			<p>
+	
+			</p>
+			<hr style="height: 2px; color: #8B1111; background-color: #8B1111; width: 50%; border: none;">
+		</div>
+	</div>
 </body>
 </html>
