@@ -187,7 +187,7 @@ div.membres p.membres{
 	text-align: center;
 }
 
-.cahier_des_charges h3{
+.cahier_des_charges h3 , .première_soutenance h3{
 	text-align: center;
 }
 
@@ -205,6 +205,10 @@ a.download_cahier{
 	font-size: 25px;
 	margin-left: 32%;
 	padding: 10px;
+}
+
+a.prems{
+	margin-left: 46%;
 }
 
 .pages_actu div p{
