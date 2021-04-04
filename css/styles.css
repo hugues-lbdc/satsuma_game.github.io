@@ -33,14 +33,16 @@ nav.menu_nav ul li a{
 
 .accueil{
 	display: flex;
+	justify-content: space-evenly;
 }
 
 .accueil div.intro p{
 	padding-top: 15px;
-	padding-left: 25%;
+	margin-left: 15%;
 }
 
-.accueil div.logo img{
+.accueil div.logo{
+	margin-right: 10%;
 	white-space: 37%;
 }
 
@@ -80,7 +82,7 @@ a.download{
 	text-decoration: none;
 	background-color: #C0C0C0;
 	font-size: 25px;
-	margin-left: 40%;
+	margin-left: 35%;
 	padding: 10px;
 }
 
@@ -184,6 +186,27 @@ div.membres p.membres{
 .pages_actu div h3{
 	text-align: center;
 }
+
+.cahier_des_charges h3{
+	text-align: center;
+}
+
+a.download_cahier:hover{
+	color: #000000;
+	background-color: #a24040;
+	transition: 0.4s all;
+}
+
+a.download_cahier{
+	font-weight: bold;
+	color: #8B1111;
+	text-decoration: none;
+	background-color: #C0C0C0;
+	font-size: 25px;
+	margin-left: 32%;
+	padding: 10px;
+}
+
 .pages_actu div p{
 	margin-left: 200px;
 	margin-right: 200px;
@@ -193,8 +216,4 @@ div.membres p.membres{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-figure {
-    margin: 0;
 }
