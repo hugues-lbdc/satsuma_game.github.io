@@ -115,7 +115,58 @@
 		<div>
 			<h3 id="Graphisme">Graphisme</h3>
 			<p>
-	
+				MAP
+			</p>
+			<p>
+				Une grande partie de notre map a été faite avec des assets ainsi, nous avons pu créer des arbres, des rochers ou encore l'herbe et les graviers de la route facilement. Mais nous avons aussi créé plusieurs modèles 3D afin de pouvoir personnaliser notre jeu. Ainsi nous avons créé des armes tels que des pistolets ou des sabres, un temple dans lequel nous avons accès à plusieurs étages. Mais aussi un pont et une arche qui rappelle le décor samouraï.
+			</p>
+			<p>
+				LE TEMPLE
+			</p>
+			<p>
+				Le temple a été créé avec Unity,il permet de rappeler l'époque samouraï, pour le faire nous nous sommes inspiré de plusieurs temples Japonais. Les couleurs rouge noir et doré sont assez présentes dans la plupart des temples dont nous nous sommes inspirés. Les couleurs ont été repris pour être parfaitement en accord avec les temples. Le fait de pouvoir accéder à plusieurs étages est un vrai bonus car il permet au joueur de pouvoir facilement tuer des ennemis en étant placé plus haut qu’eux. Pour qu'il soit parfaitement présent dans la map nous avons créé une série de marches assez conséquentes pour qu'il intègre parfaitement dans l'environnement de la map
+			</p>
+			<p>
+				LES MAISONS
+			</p>
+			<p>
+				Afin de rajouter de petits décors dans la map en plus du temple , nous avons ajouté quelques maisons. Nous leur avons appliqué un décor en pierre avec des murs blancs, en effet c'est un décor que l'on retrouve assez souvent Au Japon. La maison étant à l'intérieur assez sombre nous avons aussi ajouté des lampes ceux qui donnent un joli effet lorsque l'on rentre dans la maison.
+			</p>
+			<p>
+				LE PONT
+			</p>
+			<p>
+				Il sert à rappeler les décors japonais comme le temple et la grande arche ses couleurs sont le rouge et le doré.
+			</p>
+			<p>
+				LES GRANDES ARCHES
+			</p>
+			<p>
+				Cette arche est typiquement japonaise on la retrouve assez souvent dans les décors japonais. Modéliser avec Blender puis exporté sur Unity elle est  uniquement la pour un aspect décoratif et se marie bien avec notre désir de contexte Samourai. 
+			</p>
+			<p>
+				LES ARMES
+			</p>
+			<p>
+				Les pistolets
+			</p>
+			<p>
+				Nous avons créé plusieurs armes avec Blender tout d'abord des pistolets. Les différents pistolet auront des points de dégâts différents et pourront être récupérés par le joueur. Si nous avons créé plusieurs armes c'est bien sûr pour avoir une diversité et que les joueurs puissent choisir en fonction de leurs préférences.
+			</p>
+			<p>
+				Les sabres
+			</p>
+			<p>
+				Nous avons aussi créé des sabres.Ils pourront servir à la fois en tant qu’arme du joueur mais aussi en tant que décoration par exemple pour le temple.
+			</p>
+			<p>
+				LES LAMPES
+			</p>
+			<p>
+				Nous avons rajouté des lampes dans le temple, en effet le temps étant très peu éclairé ajouter des lumières à l'intérieur rang un effet bien plus jolie.
+			</p>
+			<p>
+				Nous voulons encore rajouté quelques élements de décors telle que des carrioles, des maisons et  un temple.
 			</p>
 			<hr style="height: 2px; color: #8B1111; background-color: #8B1111; width: 50%; border: none;">
 		</div>
@@ -140,8 +191,30 @@
 		<div>
 			<h3 id="Menu">Menu</h3>
 			<p>
-	
+				ACCUEIL
 			</p>
+			<p>
+				Nous avons crée un menu sur une scène différentes de celle du jeu, celui-ci permet de rejoindre la scène du jeu solo ou bien la scène du multijoueur. Pour ceci on a juste besoin de cliquer sur le bouton adéquate, "Play" pour le mode Solo, "Online" pour le mode en multijoueur. 
+        De plus, on peut cliquer sur le bouton "Setting" qui nous emmène sur une scène permettant de régler le son, la résolution.
+        
+        Pour ceci, on a créé une playlist dans laquelle on a mis pour l'instant une seule musique et à l'aide d'un code, les sons de la plyalist sont joués. Par la suite nous 
+        Si on appuie sur le bouton "Quit" notre ordinateur ferne le jeu. 
+
+		Egalement, le son du menu principal a été assigné en boucle ainsi qu'un fond représentant un samourai.
+			</p>
+			<p>
+				LES OPTIONS
+			</p>
+			<p>
+				Egalement, le son du menu principal a été assigné en boucle ainsi qu'un fond représentant un samourai.
+			</p>
+			<p>
+				MENU DU JEUX
+			</p>
+			<p>
+				Il existe également un mode pause assigné directement au joueur si celui-ci appuie sur la touche adéquate c'est à dire "Echap" le jeu se met en pause et nous pouvons soit appuyer sur "Continue" pour reprendre le jeu, "Menu" pour retourner au menu principal ou alors "Quit" pour quitter l'application. 
+			</p>
+			
 			<hr style="height: 2px; color: #8B1111; background-color: #8B1111; width: 50%; border: none;">
 		</div>
 		<div>
@@ -154,14 +227,46 @@
 		<div>
 			<h3 id="IA">IA</h3>
 			<p>
-	
+				A la derniere soutenance nous avions une IA qui se deplacait vers le player1. Une animation "Run" se lançait alors.
+			</p>
+			<p>
+				Maintenant chaque ennemi sur la scène cherche en permanance le joueur le plus proche pour se diriger vers lui. Pour arriver à ce résultat,  il était nécessaire  de créer une liste des joueurs pour calculer la distance entre l'IA et chaque joueur présent dans le jeu.	
+			</p>
+			<p>
+				Un systeme d'attaque a été mis en place, dorénavant lorsque l'IA se trouve à une certaine distance d'un joueur, une animation attaque se déclenche et l'ennemi se voit perdre des points de vie. L'IA à un temps d'attente entre deux attaques. Elle a aussi une variable qui correspond au nombre de points de vie enlevés par coups reçus.
+			</p>
+			<p>
+				Comme énoncé un peu plus haut l'IA a maintenant une jauge de vie non perseptible par le joueur. Le nombre de point de vie  augmente à chaque passage de manche.
+
 			</p>
 			<hr style="height: 2px; color: #8B1111; background-color: #8B1111; width: 50%; border: none;">
 		</div>
 		<div>
 			<h3 id="Meca">Mécanique du jeu</h3>
 			<p>
-	
+				ENTITE
+			</p>
+			<p>
+				Lors de la première soutenance, nous avions un personnage qu'on pouvait deplacer vers l'avant, vers l'arriere, vers la droite et vers la gauche. Nous pouvions bouger la camera de notre joueur dans tous les sens et nous pouvions sauter.
+				Nous avons rajouter a notre personnage des animations, celle de sauter et de marcher.	
+			</p>
+			<p>
+				ARMES
+			</p>
+			<p>
+				Nous avons aussi rajouter un système de tir avec des raycasts. Lorsque notre curseur placer au milieu de notre écran pointe vers un ennemi et que nous appuyons sur le clic gauche de notre souris l'ennemi prend des dégats.
+				La difficulté a été de détecter si l'ennemi a bien été touché ou non. Mais également que chaque ennemi possède une jauge de vie unique. Pour ça nous avons créé un dictionnaire avec comme clef le nom de l'ennemi et comme valeur l'ennemi lui même. Lorsqu'un ennemi spawn on change son nom pour y rajouter un numero qui sert a le differencier des autres. Donc chaque ennemi a un nom différent.
+			</p>
+			<p>
+				MARCHE (SPAWN)
+			</p>
+			<p>
+				Certaines zones de spawn ont été mise en place.
+				4 spawn pour les players car le nombre maximum de joueurs en multijoueur est de 4.
+				Un spawn pour les IA.
+				Les IA spawn a tour de rôle à des intervalles de temps régulier. Nous avons mis en place un maximum d'IA pouvant être en meme temps sur la map pour éviter le surcharge.
+				Notre jeu est basé sur qui fera survivra le plus de manches ?  Nous avons implémenté un système de maches  qui consiste à avoir un nombre d'ennemis différents par manche. Une fois tous tués une nouvelle commence. A chaque passage de manche, la difficultée se voit augmenter. Il y a plus d'ennemis a éliminé et ces ennemis ont plus de point de vie.
+			
 			</p>
 		</div>
 	</div>
